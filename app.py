@@ -9,9 +9,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    SUBSCRIPTION_ID = "e8ea57f1-23d1-4841-9864-74bf2461f953"
-    GROUP_NAME = "yukurash_rg_Linux_japaneast"
-    APP_SERVICE_PLAN = "yukurash_asp_Linux_japaneast_0"
+    SUBSCRIPTION_ID = 'd7b6f37e-f1a4-4f7e-80ee-d38d12e83e2c'
+    GROUP_NAME = 'rg-zuerst-prod-001'
+    APP_SERVICE_PLAN = 'ASP-rgazuremlpoc001-8052'
     
     web_client = WebSiteManagementClient(
         credential=DefaultAzureCredential(),
