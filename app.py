@@ -29,7 +29,7 @@ def hello():
         GROUP_NAME,
         APP_SERVICE_PLAN,
         {
-            "location": "japaneast",
+            "location": "Japan West",
             "sku": {
                 "name": "P3v2",
                 "tier": "PremiumV2",
